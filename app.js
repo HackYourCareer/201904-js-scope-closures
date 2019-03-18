@@ -5,18 +5,18 @@
 function f2() {
   var c;
   c = 'very very long';
-  console.log('C: ', c + a);
+  console.log('var c + a: ', c + a);
 }
 var f1;
 f1 = function () {
   var b;
-  b = 6;
-  var a = 10;
+  b = 'B';
+  var a = 'Y';
   f2();
-  console.log('B: ', b);
+  console.log('var b: ', b);
   return b + a;
 }
 var a;
-a = 5;
-console.log('A: ', f1());
+a = 'A';
+console.log('f1(): ', f1());
 
