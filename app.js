@@ -5,16 +5,16 @@
 var f1;
 f1 = function () {
   var b;
-  b = 6;
+  b = 'B';
   function f2() {
     var c;
     c = 'very very long';
-    console.log('C: ', c);
+    console.log('var c: ', c);
   }
   f2();
-  console.log('B: ', b + c);
+  console.log('var b + var c: ', b + c);
   return b + a;
 }
 var a;
 a = 5;
-console.log('A: ', f1());
+console.log('f1(): ', f1());
