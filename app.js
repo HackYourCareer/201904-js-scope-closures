@@ -2,22 +2,21 @@
 
 /* ---- Starting point ---- */
 
-var f1;
-f1 = function () {
+var a = 'A'; //LHS
+console.log('var a: ', a); //RHS
+
+function f1() {
+  var b = 'B';
+  var a = 'Y';
+
   function f2() {
-    var c;
-    c = 'very very long';
-    console.log('C: ', c + a + b);
+    var c = 'C';
+    console.log('var c + a + b: ', c + a + b);
   }
-  var b;
-  b = 6;
   f2();
-  console.log('B: ', b);
+  console.log('var a + b: ', a + b);
   return f2;
 }
-var a;
-a = 5;
-var f = f1();
-var b = 88;
-f();
-
+var f2 = f1();
+var b = 'Z';
+f2();
