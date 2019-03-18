@@ -3,10 +3,10 @@
 var f1;
 f1 = function () {
   var b;
-  b = 6;
-  console.log('B: ', b);
+  b = 'B';
+  console.log('var b: ', b);
   return b + a;
 }
 var a;
- a = 5;
- console.log('A: ', f1());
+ a = 'A';
+ console.log('var a: ', f1());
