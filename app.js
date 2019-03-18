@@ -3,39 +3,39 @@
 /* ---- Starting point ---- */
 
 /* var a;
-a = 5;
+a = 'A';
 console.log(a); */
 
 /* ---- Global variable is declared ---- */
 
-/* 
-//var a;
-a = 5;
+
+/* //var a;
+a = 'A';
 console.log(a); */
 
 /* ---- Reference error ---- */
 
-/*
- //var a;
- //a = 5;
+
+/*  //var a;
+ //a = 'A';
  console.log(a); */
 
- /* ---- Reference error with strict mode ---- */
+/* ---- Reference error with strict mode ---- */
 
-/*
-'use strict';
-a = 5;
-console.log(a); */
+
+/* 'use strict';
+a = 'A';
+console.log(a);  */
 
 /* ---- Type error ---- */
-
-/* var f1;
+/* 
+var f1;
 var a;
- a = 5;
-console.log('A: ', f1());
+a = 'A';
+console.log('f1(): ', f1());
 f1 = function () {
   var b;
-  b = 6;
-  console.log('B: ', b);
+  b = 'B';
+  console.log('var  b: ', b);
   return b;
-} */
+}  */
