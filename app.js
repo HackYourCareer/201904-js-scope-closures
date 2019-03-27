@@ -3,8 +3,9 @@ var myLib = (function () {
     var isValid = validator(form);
     if (isValid) {
       console.log('VALID');
+    } else {
+      console.log('INVALID');
     }
-    console.log('INVALID');
   }
   return {
     validate: validate
