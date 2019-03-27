@@ -1,26 +1,22 @@
 var myLib = (function () {
   function validate(form, validator) {
     var isValid = validator(form);
-    if (!isValid) {
-      console.log('ERROR');
+    if (isValid) {
+      console.log('VALID');
     }
+    console.log('INVALID');
   }
-
   return {
     validate: validate
   }
-
 })();
-
-function max(form) {
-  if (form.field >= 3) {
-    return false;
-  }
-  return true;
-}
 
 var form = {
   field: 5
+}
+
+function max(form) {
+  return form.field <= 3;
 }
 
 myLib.validate(form, max);
