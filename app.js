@@ -1,18 +1,15 @@
-/* SOLUTIONS FOR IIFE EXERCISES */
+function f1() {
+  (function IIFE() {
 
-/* ---- Starting point ---- */
-
-var f1;
-f1 = function () {
-  var b;
-  b = 6;
-  (function () {
-    var c;
-    c = 'very very long';
-    console.log('C: ', c + a + b);
   })();
-  console.log('B: ', b);
+
+  for (var i = 0; i < 5; i++) {
+    (function (ii) {
+      function ft() {
+        console.log(ii);
+      }
+      setTimeout(ft);
+    })(i);
+  }
 }
-var a;
-a = 5;
-f1()
+f1();
