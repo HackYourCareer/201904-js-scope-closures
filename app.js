@@ -1,7 +1,4 @@
-/* SOLUTIONS FOR CLOSURE EXERCISES */
-
 var a = 'A'; //LHS
-//console.log('var a: ', a); //RHS
 
 function f1() {
   var b = 'B';
