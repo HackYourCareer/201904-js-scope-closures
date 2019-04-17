@@ -1,6 +1,8 @@
 # Tego nie wiesz o JS: Scope & Closures
 To repozytorium zawiera kod źródłowy który będzie służył do przedstawienia omawianych podczas warsztatu zagadnień oraz ćwiczeń.
 
+## Ćwiczenia przedstawione są w poszczególnych branch'ach.
+
 Główną częścią warsztatu będzie analiza zagadnień związanych z tematyką zakresów i domknięć na pisanym na żywo kodzie.
 Warsztat będzie wzbogacony pytaniami do publiczności oraz końcowym zadaniem pozwalającym wykorzystać poznane mechanizmy języka Java Script.
 
